@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: yellow;
+}
+
+.main {
+  height: 100vh;
+}
+
+.container__main {
+  padding-top: 25vh;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .container__main {
+    padding-top: 10vh;
+  }
+  .mainThing_content {
+    padding-top: 1vh;
+  }
+}
+.main__backgroundImage {
+  background-image: url("https://i.stack.imgur.com/vhoa0.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.mainThing__backgroundImage {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVIXN4ty7JTDAOxDMlY4L6s_8nDh_PB2w06Q&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-dark {
+  background-color: black !important;
+}
+.mainThing_content {
+  padding-top: 30vh;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: yellow;
+}
+
+.mySwiper img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: 45vh;
+}
